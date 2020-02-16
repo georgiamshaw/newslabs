@@ -1,5 +1,4 @@
 const getAverageSentenceScore = rows => {
-  console.log("rows", rows);
   const sentences = rows.map(row => row["sentence pair id"]);
   const uniqueSentences = [...new Set(sentences)];
 
@@ -20,7 +19,6 @@ const getAverageSentenceScore = rows => {
     sentenceScores[sentences] = averageScore;
   });
   return sentenceScores;
-  // console.log(sentenceScores);
 };
 
 module.exports = getAverageSentenceScore;

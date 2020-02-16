@@ -1,5 +1,4 @@
 const getAverageEvaluatorScore = rows => {
-  console.log(rows);
   const evaluators = rows.map(row => row["evaluator id"]);
   const uniqueEvaluators = [...new Set(evaluators)];
 
@@ -20,7 +19,6 @@ const getAverageEvaluatorScore = rows => {
     evaluatorScores[evaluator] = averageScore;
   });
   return evaluatorScores;
-  console.log(evaluatorScores);
 };
 
 module.exports = getAverageEvaluatorScore;
