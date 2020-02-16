@@ -1,4 +1,4 @@
-# newslabs
+# BBC News Labs - Gourmet Engineer Application
 
 Please find in this repository my completed tech test the BBC Gourmet Engineer role.
 
