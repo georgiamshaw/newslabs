@@ -6,6 +6,7 @@ To install and run code, please follow these instructions:
 
 ```
 git clone git@github.com:georgiamshaw/newslabs.git
+
 npm install
 ```
 
