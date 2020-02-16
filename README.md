@@ -4,7 +4,8 @@ Please find in this repository my completed tech test the BBC Gourmet Engineer r
 
 To install and run code, please follow these instructions:
 
-```git clone git@github.com:georgiamshaw/newslabs.git
+```
+git clone git@github.com:georgiamshaw/newslabs.git
 npm install
 ```
 
